@@ -1,0 +1,14 @@
+{
+  "budget": 1,
+  "running_error_code": "E_NOT_RUNNING",
+  "ready_error_code": "E_ALREADY_READY",
+  "event_error_code": "E_BAD_EVENT",
+  "state": { "running": "", "queue": [], "finished": [], "ledger": [], "applied": [] },
+  "events": [
+    { "id": 1, "kind": "ready", "task": "a" },
+    { "id": 2, "kind": "ready", "task": "b" },
+    { "id": 3, "kind": "ready", "task": "c" },
+    { "id": 4, "kind": "yield", "task": "a" },
+    { "id": 5, "kind": "finish", "task": "b" }
+  ]
+}
